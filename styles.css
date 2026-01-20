@@ -773,3 +773,29 @@ input:focus, textarea:focus{
   transform: scale(1.03);
   box-shadow: 0 40px 100px rgba(0, 0, 0, 0.9);
 }
+
+
+/* ===== Enhancements (layout polish) ===== */
+.split__media{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height: 220px;
+}
+
+.camera-image{
+  width: 100%;
+  max-width: 520px;
+  border-radius: 16px;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.8);
+  transition: transform .6s ease, box-shadow .6s ease;
+}
+
+.camera-image:hover{
+  transform: scale(1.03);
+  box-shadow: 0 40px 100px rgba(0,0,0,0.9);
+}
+
+/* Hide hero overlays (safety) */
+.store, .social{ display:none !important; }
+

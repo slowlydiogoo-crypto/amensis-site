@@ -233,19 +233,32 @@
       </div>
 
       <div class="contact grid grid--2">
-        <form class="card form" id="contactForm" novalidate>
+
+        <!-- ✅ FORM ATUALIZADO PARA FORMSPREE (SEM ALTERAR MAIS NADA) -->
+        <form class="card form"
+              action="https://formspree.io/f/a7x7tdx9qdj"
+              method="POST">
+
           <label>
             Name
             <input name="name" type="text" autocomplete="name" placeholder="Your name" required />
           </label>
+
           <label>
             Email
             <input name="email" type="email" autocomplete="email" placeholder="name@example.com" required />
           </label>
+
           <label>
             Message
             <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
           </label>
+
+          <!-- Anti-spam -->
+          <input type="text" name="_gotcha" style="display:none" />
+
+          <!-- Subject (optional) -->
+          <input type="hidden" name="_subject" value="New message from Amensis website" />
 
           <button class="btn btn--primary" type="submit">Send</button>
           <p class="form__msg" id="formMsg" role="status" aria-live="polite"></p>

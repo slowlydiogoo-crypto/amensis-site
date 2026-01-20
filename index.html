@@ -23,196 +23,170 @@
 </head>
 
 <body>
-  <div class="noise" aria-hidden="true"></div>
+<div class="noise" aria-hidden="true"></div>
 
-  <!-- TOP BAR -->
-  <header class="topbar topbar--overlay" id="topbar">
-    <a class="brand" href="#top" aria-label="Amensis (home)">
-      <img class="brand__logo" src="assets/amensis-logo.webp" alt="Amensis" />
-      <span class="sr-only">Amensis</span>
-    </a>
+<header class="topbar topbar--overlay">
+  <a class="brand" href="#top">
+    <img class="brand__logo" src="assets/amensis-logo.webp" alt="Amensis">
+  </a>
 
-    <nav class="nav" aria-label="Primary navigation">
-      <a href="#about">About</a>
-      <a href="#features">Features</a>
-      <a href="#camera">The Camera</a>
-      <a href="#media">Media</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <nav class="nav">
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#camera">The Camera</a>
+    <a href="#media">Media</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-  </header>
+  <button class="nav__toggle" id="navToggle">
+    <span></span><span></span><span></span>
+  </button>
+</header>
 
-  <main id="top">
+<main id="top">
 
-    <!-- HERO -->
-    <section class="hero hero--cinematic" aria-label="Hero">
-      <div class="hero__bg" aria-hidden="true"></div>
+<!-- HERO -->
+<section class="hero hero--cinematic">
+  <div class="hero__bg"></div>
 
-      <div class="hero__inner">
-        <p class="kicker">A FIRST-PERSON PSYCHOLOGICAL HORROR EXPERIENCE</p>
+  <div class="hero__inner">
+    <p class="kicker">A FIRST-PERSON PSYCHOLOGICAL HORROR EXPERIENCE</p>
 
-        <div class="hero__title" aria-hidden="true">
-          <img class="hero__logo" src="assets/amensis-logo.webp" alt="AMENSIS" />
-        </div>
-
-        <p class="subtitle">
-          Light lies. Silence speaks. And memories… devour.
-        </p>
-
-        <p class="lead">
-          You wake up in a place you don’t fully remember — and the house doesn’t want you to.
-          With an <strong>instant camera</strong> in your hands, reveal what’s hidden in the dark,
-          zoom into details that shouldn’t exist, and piece together the truth… without seeing too much.
-        </p>
-
-        <div class="hero__cta">
-          <a class="btn btn--primary btn--download" href="downloads/Amensis-Demo.zip" download>
-            Download Demo (Free)
-          </a>
-          <a class="btn btn--primary" href="#features">See features</a>
-          <a class="btn btn--ghost" href="#contact">Wishlist / Contact</a>
-        </div>
-
-        <div class="hero__bar">
-          <div class="pill">Psychological horror</div>
-          <div class="pill">Instant camera mechanics</div>
-          <div class="pill">Zoom / focus clues</div>
-          <div class="pill">Puzzles &amp; exploration</div>
-        </div>
-      </div>
-
-      <a class="scrollhint" href="#about" aria-label="Scroll down">
-        <span class="scrollhint__dot" aria-hidden="true"></span>
-      </a>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="section section--panel" id="about">
-      <div class="section__head center">
-        <h2>About</h2>
-        <p>
-          <strong>Amensis</strong> is a slow-burn psychological horror game focused on tension,
-          atmosphere, and the uncomfortable feeling that something is <em>wrong</em>.
-          The story stays mysterious on this page — players should discover the plot inside the game.
-        </p>
-      </div>
-    </section>
-
-    <!-- FEATURES -->
-    <section class="section" id="features">
-      <div class="section__head center">
-        <h2>Features</h2>
-        <p>Mechanics, mood, and what makes Amensis unsettling.</p>
-      </div>
-
-      <div class="feature-grid">
-        <article class="feature">
-          <div class="feature__icon">📷</div>
-          <h3>Instant Camera</h3>
-          <p>Photograph the world to reveal hidden details and entities invisible to the naked eye.</p>
-        </article>
-
-        <article class="feature">
-          <div class="feature__icon">🔎</div>
-          <h3>Zoom &amp; Focus</h3>
-          <p>Inspect photos and environments closely to uncover micro-clues and distortions.</p>
-        </article>
-
-        <article class="feature">
-          <div class="feature__icon">🧠</div>
-          <h3>Psychological Horror</h3>
-          <p>No comfort, no certainty — only dread, paranoia, and unreliable perception.</p>
-        </article>
-
-        <article class="feature">
-          <div class="feature__icon">🧩</div>
-          <h3>Puzzles</h3>
-          <p>Progress by understanding patterns and meanings, not by brute force.</p>
-        </article>
-
-        <article class="feature">
-          <div class="feature__icon">🎧</div>
-          <h3>Sound &amp; Silence</h3>
-          <p>Audio cues can save you — or warn you that something is already near.</p>
-        </article>
-
-        <article class="feature">
-          <div class="feature__icon">🏚️</div>
-          <h3>Claustrophobic Spaces</h3>
-          <p>Small environments that subtly change and remember your presence.</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- CAMERA -->
-    <section class="section section--panel" id="camera" aria-label="The camera">
-      <div class="split">
-        <div class="split__text">
-          <h2>The Camera</h2>
-          <p>
-            Your instant camera is not a “gadget” — it’s the game’s main language.
-            What you capture can expose hidden paths, messages, and threats…
-            but it can also invite attention.
-          </p>
-
-          <div class="checklist">
-            <div class="check"><span>✓</span> Reveal hidden layers in photos</div>
-            <div class="check"><span>✓</span> Zoom into details to unlock progress</div>
-            <div class="check"><span>✓</span> Use framing to find symbols &amp; patterns</div>
-            <div class="check"><span>✓</span> Stay alert: the camera can show what you wish you hadn’t seen</div>
-          </div>
-        </div>
-
-        <div class="split__media">
-          <img src="assets/camera.png" alt="Amensis camera" class="camera-image" />
-        </div>
-      </div>
-    </section>
-
-    <!-- MEDIA -->
-    <section class="section" id="media">
-      <div class="section__head center">
-        <h2>Trailer &amp; Screenshots</h2>
-        <p>Watch the official teaser trailer and browse in-game screenshots below.</p>
-      </div>
-
-      <div class="video card">
-        <div class="video__ratio">
-          <iframe
-            title="Amensis — Teaser Trailer"
-            src="https://www.youtube-nocookie.com/embed/4HQ5aAYvNmI"
-            loading="lazy"
-            allowfullscreen>
-          </iframe>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="section section--panel" id="contact">
-      <div class="section__head center">
-        <h2>Contact / Wishlist</h2>
-        <p>Use this section for store links, newsletter, and press contact.</p>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="footer">
-    <div class="footer__inner">
-      <p class="footer__title">AMENSIS</p>
-      <p class="footer__text">
-        © <span id="year"></span> — Concept, design &amp; development by Ana Margarida Amaro
-      </p>
-      <p class="footer__text">
-        <a href="https://amensisgame.com/" target="_blank" rel="noreferrer">amensisgame.com</a>
-      </p>
+    <div class="hero__title">
+      <img class="hero__logo" src="assets/amensis-logo.webp" alt="AMENSIS">
     </div>
-  </footer>
 
-  <script src="script.js"></script>
+    <p class="subtitle">Light lies. Silence speaks. And memories… devour.</p>
+
+    <p class="lead">
+      You wake up in a place you don’t fully remember — and the house doesn’t want you to.
+      With an <strong>instant camera</strong>, reveal what’s hidden in the dark and piece together the truth.
+    </p>
+
+    <div class="hero__cta">
+      <a class="btn btn--primary btn--download" href="downloads/Amensis-Demo.zip" download>Download Demo</a>
+      <a class="btn btn--primary" href="#features">See features</a>
+      <a class="btn btn--ghost" href="#contact">Wishlist / Contact</a>
+    </div>
+
+    <div class="hero__bar">
+      <div class="pill">Psychological horror</div>
+      <div class="pill">Instant camera mechanics</div>
+      <div class="pill">Zoom & focus clues</div>
+      <div class="pill">Puzzles & exploration</div>
+    </div>
+  </div>
+
+  <a class="scrollhint" href="#about"><span></span></a>
+</section>
+
+<!-- ABOUT -->
+<section class="section section--panel" id="about">
+  <div class="section__head center">
+    <h2>About</h2>
+    <p>
+      <strong>Amensis</strong> is a slow-burn psychological horror experience focused on atmosphere,
+      paranoia, and the fear of seeing too much.
+    </p>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section" id="features">
+  <div class="section__head center">
+    <h2>Features</h2>
+    <p>Mechanics, mood, and what makes Amensis unsettling.</p>
+  </div>
+
+  <div class="feature-grid">
+    <article class="feature"><div class="feature__icon">📷</div><h3>Instant Camera</h3><p>Reveal hidden details invisible to the naked eye.</p></article>
+    <article class="feature"><div class="feature__icon">🔎</div><h3>Zoom & Focus</h3><p>Inspect photos to uncover clues and distortions.</p></article>
+    <article class="feature"><div class="feature__icon">🧠</div><h3>Psychological Horror</h3><p>Dread, paranoia, and unreliable perception.</p></article>
+    <article class="feature"><div class="feature__icon">🧩</div><h3>Puzzles</h3><p>Progress by understanding, not force.</p></article>
+    <article class="feature"><div class="feature__icon">🎧</div><h3>Sound & Silence</h3><p>Audio is a warning — or a lie.</p></article>
+    <article class="feature"><div class="feature__icon">🏚️</div><h3>Claustrophobic Spaces</h3><p>Small environments that change subtly.</p></article>
+  </div>
+</section>
+
+<!-- CAMERA -->
+<section class="section section--panel" id="camera">
+  <div class="split">
+    <div class="split__text">
+      <h2>The Camera</h2>
+      <p>Your instant camera is the game’s main language.</p>
+      <div class="checklist">
+        <div class="check">✓ Reveal hidden layers</div>
+        <div class="check">✓ Zoom into details</div>
+        <div class="check">✓ Decode symbols</div>
+        <div class="check">✓ Witness what shouldn’t exist</div>
+      </div>
+    </div>
+
+    <div class="split__media">
+      <img src="assets/camera.png" alt="Camera" class="camera-image">
+    </div>
+  </div>
+</section>
+
+<!-- MEDIA / GALLERY -->
+<section class="section" id="media">
+  <div class="section__head center">
+    <h2>Trailer & Screenshots</h2>
+  </div>
+
+  <div class="video card">
+    <div class="video__ratio">
+      <iframe src="https://www.youtube-nocookie.com/embed/4HQ5aAYvNmI" loading="lazy" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div class="gallery gallery--tight">
+    <div class="shot"><div class="shot__img shot__img--1"></div></div>
+    <div class="shot"><div class="shot__img shot__img--2"></div></div>
+    <div class="shot"><div class="shot__img shot__img--3"></div></div>
+    <div class="shot"><div class="shot__img shot__img--4"></div></div>
+    <div class="shot"><div class="shot__img shot__img--5"></div></div>
+    <div class="shot"><div class="shot__img shot__img--6"></div></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section section--panel" id="contact">
+  <div class="section__head center">
+    <h2>Contact / Wishlist</h2>
+    <p>For updates, press, or early access.</p>
+  </div>
+
+  <div class="contact grid grid--2">
+    <form class="card form">
+      <label>Name<input type="text"></label>
+      <label>Email<input type="email"></label>
+      <label>Message<textarea rows="4"></textarea></label>
+      <button class="btn btn--primary">Send</button>
+    </form>
+
+    <div class="card">
+      <h3>Links</h3>
+      <div class="links">
+        <a href="#">Steam</a>
+        <a href="#">Press Kit</a>
+        <a href="#">Trailer</a>
+      </div>
+      <hr class="sep">
+      <p>Email: press@amensis-game.com</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <p class="footer__title">AMENSIS</p>
+    <p class="footer__text">© <span id="year"></span> — Concept, design & development by Ana Margarida Amaro</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>

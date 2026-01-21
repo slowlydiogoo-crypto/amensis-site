@@ -607,6 +607,18 @@ input:focus, textarea:focus{
 }
 .footer__text{ color: rgba(240,240,246,.55); }
 
+.footer__logo{
+  height: 18px;
+  width: auto;
+  display: block;
+  opacity: .95;
+}
+.footer__brand{
+  display: inline-flex;
+  align-items: center;
+}
+
+
 /* a11y */
 .sr-only{
   position:absolute !important;

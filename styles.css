@@ -586,27 +586,67 @@ input:focus, textarea:focus{
 }
 
 /* Footer */
-.footer{
-  padding: 30px 18px 44px;
-  border-top: 1px solid rgba(255,255,255,.06);
-  background: rgba(0,0,0,.28);
+.footer {
+  background: #000;
+  padding: 0.75rem 1rem;   /* 🔴 isto controla a altura */
 }
-.footer__inner{
-  max-width: var(--max);
-  margin:0 auto;
-  display:flex;
-  align-items:flex-end;
-  justify-content:space-between;
-  gap: 16px;
-  flex-wrap:wrap;
-}
-.footer__title{
-  font-family: "Special Elite", ui-serif, Georgia, serif;
-  letter-spacing:.18em;
-  color: rgba(240,240,246,.85);
-}
-.footer__text{ color: rgba(240,240,246,.55); }
 
+<<<<<<< HEAD
+=======
+.footer__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;     /* alinha verticalmente */
+  justify-content: space-between;
+
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+
+.footer__text {
+  margin: 0;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.footer__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.85);
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.5rem;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.footer__link:hover {
+  background: rgba(0, 0, 0, 0.06);
+  transform: translateY(-1px);
+}
+
+.footer__link:focus-visible {
+  outline: 3px solid rgba(0, 0, 0, 0.35);
+  outline-offset: 2px;
+}
+
+
+>>>>>>> 6c17422 (Atualização do site)
 /* a11y */
 .sr-only{
   position:absolute !important;
